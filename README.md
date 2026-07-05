@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![Google ADK](https://img.shields.io/badge/Google-ADK-green)
-![Gemini](https://img.shields.io/badge/Gemini-3.5%20Flash-orange)
+![Gemini](https://img.shields.io/badge/Gemini-3.1%20Flash%20Lite-orange)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
 A production-style **Multi-Agent AI Blog Writer** built using the **Google Agent Development Kit (ADK)**.
@@ -184,15 +184,21 @@ Replace `your_api_key` with the API key generated from Google AI Studio.
 
 # 🤖 Model Used
 
-This project uses
+This project uses:
 
 ```text
-gemini-3.5-flash
+gemini-3.1-flash-lite
 ```
 
-This model is currently available under the **Gemini Free Tier**.
+The model is lightweight, fast, and suitable for building multi-agent applications with Google ADK. It also supports the Gemini API Free Tier, making it a great choice for learning and experimentation.
 
-You can easily switch to another Gemini model by updating the model name inside the project.
+If you'd like to use a different Gemini model, simply update the `MODEL` environment variable or change the default value in `agent.py`.
+
+Example:
+
+```python
+MODEL = os.getenv("MODEL", "gemini-3.1-flash-lite")
+```
 
 ---
 
