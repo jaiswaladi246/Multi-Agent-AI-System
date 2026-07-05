@@ -23,7 +23,7 @@ Founder of **DevOps Shack**, where we teach DevOps, Cloud, Kubernetes, DevSecOps
 
 - 📺 YouTube: https://www.youtube.com/@devopsshack
 - 📸 Instagram: https://www.instagram.com/devopsshack
-- 💼 LinkedIn: https://www.linkedin.com/company/devopsshack
+- 💼 LinkedIn: https://www.linkedin.com/in/adityajaiswal7/
 
 ---
 
